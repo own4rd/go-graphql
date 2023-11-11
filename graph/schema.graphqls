@@ -6,13 +6,13 @@ type Category {
 }
 
 type Course {
-  id: ID!;
+  id: ID!
   name: String!
   description: String
   Category: Category!
 }
 
-input newCategory {
+input NewCategory {
   name: String!
   description: String
 }
